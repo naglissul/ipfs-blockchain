@@ -5,7 +5,7 @@ import contractData from "./build/contracts/FileStorage.json" assert { type: "js
 const web3 = new Web3("http://127.0.0.1:8545");
 const fileStorage = new web3.eth.Contract(
   contractData.abi,
-  "0x59bb378f7b0aab3ff5ca049c260fa7ef427fd752"
+  "0x8CA93e169486E7517fFAa3a979adC8A0846bb39f"
 );
 
 const ipfs = createIPFS({

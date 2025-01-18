@@ -13,7 +13,13 @@ DO THIS IN TERMINAL NOT IN VSCODE
 Ofc, prerequisites:
 `npm install -g @marp-team/marp-cli`
 
+And ofc, almost everything here is chatGPT generated :)
+
 ## Demo
+
+> During the proccess replace the constant ids in the code.
+
+> Also during the run proccess add/remove the `type: module` line in the `package.json` file. I know, that is not normal, but whatever.
 
 ```bash
 npm install
